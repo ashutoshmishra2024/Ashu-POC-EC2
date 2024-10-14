@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    runs-on: self-hosted-EC2-linux-box  # ec2 instance connect label
+    runs-on: elf-hosted-EC2-linux-Runner  # ec2 instance connect label
 
     steps:
       - uses: actions/checkout@v4
